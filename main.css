@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: #141418;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: linear-gradient(#252d37, #121417);
+  width: 26rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.66rem;
+  border-radius: 12px;
+}
+
+.circle {
+  border-radius: 99px;
+  background-color: #272e38;
+  width: 3rem;
+  height: 3rem;
+  color: #959eac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 27px;
+}
+
+p {
+  font-size: 15px;
+  color: #959eac;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 99px;
+  border: none;
+  font-size: 15px;
+}
+
+.rating-button {
+  width: 3rem;
+  height: 3rem;
+  padding-top: 4px;
+  color: #959eac;
+  background-color: #272e38;
+}
+
+.rating-button:hover {
+  color: #fff;
+  background-color: #fb7413;
+}
+
+.submit {
+  color: #fff;
+  background-color: #fb7413;
+  font-weight: 700;
+  letter-spacing: 0.14rem;
+  padding: 0.66rem 0;
+}
+
+.submit:active {
+  color: #fb7413;
+  background-color: #fff;
+}
