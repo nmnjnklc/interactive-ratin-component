@@ -71,16 +71,41 @@ button {
   color: #fff;
   background-color: #fb7413;
 }
+.rating-button:focus {
+  color: #fff;
+  background-color: #959eac;
+}
 
 .submit {
   color: #fff;
   background-color: #fb7413;
   font-weight: 700;
   letter-spacing: 0.14rem;
-  padding: 0.66rem 0;
+  padding: 0.66rem 0 0.48rem 0;
 }
 
-.submit:active {
+.submit:hover {
   color: #fb7413;
   background-color: #fff;
+}
+
+.thank-you {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.thank-you img {
+  width:fit-content
+}
+
+.given-rating {
+  background-color: #272e38;
+  color: #fb7413;
+  border-radius: 99px;
+  padding: .42rem 1.22rem .22rem 1.22rem;
+}
+
+.hidden {
+  display: none;
 }
