@@ -6,6 +6,7 @@
 }
 
 body {
+  padding: 1rem;
   background-color: #141418;
   width: 100vw;
   height: 100vh;
@@ -108,4 +109,10 @@ button {
 
 .hidden {
   display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 100%;
+  }
 }
